@@ -31,7 +31,7 @@ class TicTacToe:
                 messagebox.showinfo("Гра закінчена", "Нічия!!")
                 self.reset_game()
             else:
-                self.root.after(500, self.comp_move)
+                self.root.after(10, self.comp_move)
 
     def comp_move(self):
         empty_indexes = [i for i, val in enumerate(self.board) if val == ""]
