@@ -1,6 +1,9 @@
 WIDTH = 400
 HEIGHT = 400
-CELL_SIZE = 20
+SIZE_SELL = 20
+BG = "black"
+COLOR_SNAKE = "green"
+COLOR_APPLE = "red"
 
 DIRECTIONS = {
     "Up": (0, -1),
@@ -10,7 +13,7 @@ DIRECTIONS = {
 }
 
 SPEEDS = {
-    "Легкий": 200,
-    "Середній": 150,
-    "Важкий": 100
+    "Light": 200,
+    "Medium": 150,
+    "Hard": 100
 }
